@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Sistema_de_Reservas_de_Transporte">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/Sistema_de_Reservas_de_Transporte.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
