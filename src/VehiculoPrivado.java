@@ -1,7 +1,7 @@
 
 import javax.swing.JOptionPane;
 
-public class VehiculoPrivado extends Reserva implements Confirmable {
+public class VehiculoPrivado extends Reserva {
     private TipoAuto tipoAuto;
     private static final String matriculasRegistradas[] = {"CR123", "CR456", "CR789"};
     private String matriculaCarro; 

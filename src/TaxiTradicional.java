@@ -2,7 +2,7 @@
 import java.util.Date;
 import javax.swing.JOptionPane;
 
-public class TaxiTradicional extends Reserva implements Confirmable {
+public class TaxiTradicional extends Reserva {
     
     private String licencia; 
     

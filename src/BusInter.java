@@ -2,7 +2,7 @@
 import java.time.LocalDateTime;
 import javax.swing.JOptionPane;
 
-public class BusInter extends Reserva implements Confirmable {
+public class BusInter extends Reserva {
     private int ruta;
     private static final String empresaOperadoras[] = {"INTERBUS", "TUASA", "TRACOPA"};
     private String empresa;

@@ -2,7 +2,7 @@ import java.time.LocalDateTime;
 import javax.swing.JOptionPane;
 
 
-public abstract class Reserva {
+public abstract class Reserva implements Confirmable {
     private String origen;
     private String destino;
     private LocalDateTime fechaViaje;

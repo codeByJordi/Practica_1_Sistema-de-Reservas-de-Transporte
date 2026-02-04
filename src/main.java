@@ -25,8 +25,8 @@ public class main {
                     case 1: {
                         Reserva taxi = new TaxiTradicional();
                         taxi.reservar();
-                        ((Confirmable) taxi).validarRequisitos(); //Debe tener 7 digitos
-                        ((Confirmable) taxi).enviarConfirmacion();
+                        taxi.validarRequisitos(); //Debe tener 7 digitos
+                        taxi.enviarConfirmacion();
                         JOptionPane.showMessageDialog(null, taxi.toString());
                         opcion = 4;
                         break;
@@ -34,8 +34,8 @@ public class main {
                     case 2: {
                         Reserva vehiculo = new VehiculoPrivado();
                         vehiculo.reservar();
-                        ((Confirmable) vehiculo).validarRequisitos(); //Matriculas que si están registradas CR123, CR456, CR789.
-                        ((Confirmable) vehiculo).enviarConfirmacion();
+                        vehiculo.validarRequisitos(); //Matriculas que si están registradas CR123, CR456, CR789.
+                        vehiculo.enviarConfirmacion();
                         JOptionPane.showMessageDialog(null, vehiculo.toString());
                         opcion = 4;
                         break;
@@ -43,8 +43,8 @@ public class main {
                     case 3: {
                         Reserva bus = new BusInter();
                         bus.reservar();
-                        ((Confirmable) bus).validarRequisitos(); //EMPRESAS REGISTRADAS INTERBUS, TUASA, TRACOPA
-                        ((Confirmable) bus).enviarConfirmacion();
+                        bus.validarRequisitos(); //EMPRESAS REGISTRADAS INTERBUS, TUASA, TRACOPA
+                        bus.enviarConfirmacion();
                         JOptionPane.showMessageDialog(null, bus.toString());
                         opcion = 4;
                         break;
