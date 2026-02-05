@@ -6,7 +6,7 @@ public class VehiculoPrivado extends Reserva {
     private static final String matriculasRegistradas[] = {"CR123", "CR456", "CR789"};
     private String matriculaCarro; 
     
-    public VehiculoPrivado() { super(); }
+    public VehiculoPrivado() { super(); this.matriculaCarro = ""; this.tipoAuto = null; }
     
     //Abstract y Interface
     public void reservar() { 

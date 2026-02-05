@@ -7,7 +7,7 @@ public class BusInter extends Reserva {
     private static final String empresaOperadoras[] = {"INTERBUS", "TUASA", "TRACOPA"};
     private String empresa;
     
-    public BusInter() { super(); }
+    public BusInter() { super(); this.empresa = "";}
     
     //Abstract y Interface
     public void reservar() { 

@@ -15,7 +15,7 @@ public class main {
                                                                                                         + "\n3) Reservar Asiento de Bus"
                                                                                                         + "\n4) Salir"));
                 
-                if(opcion >= 5) {  throw new Exception("Debe ser un numero dentro de las opciones"); }
+                if(opcion > 4) {  throw new Exception("Debe ser un numero dentro de las opciones"); }
                 
             } 
             catch (NumberFormatException e) {JOptionPane.showMessageDialog(null, "Debe ser un numero", "Digito Incorrecto", JOptionPane.ERROR_MESSAGE);}
@@ -49,6 +49,7 @@ public class main {
                         opcion = 4;
                         break;
                     }
+                    default: System.exit(0);
                 }
             }
         } while(opcion != 4);

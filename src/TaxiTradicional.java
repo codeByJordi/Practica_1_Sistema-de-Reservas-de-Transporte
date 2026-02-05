@@ -7,7 +7,7 @@ public class TaxiTradicional extends Reserva {
     private String licencia; 
     
     public TaxiTradicional() { 
-        super(); 
+        super(); this.licencia = "";
     }
     
     //Abstract y Interface  
